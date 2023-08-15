@@ -5,7 +5,16 @@ __pycache__/
 *$py.class
 
 # venv
-venv
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
 
 # test
 .pytest_cache/
