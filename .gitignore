@@ -1,0 +1,30 @@
+# cache
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# vartualenv
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+# test
+.pytest_cache/
+.coverage
+htmlcov/
+
+# build
+dist/
+build/
+*.egg-info/
+
+*.log
+.env
