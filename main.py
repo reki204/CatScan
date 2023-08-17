@@ -43,3 +43,6 @@ def book():
     return render_template("book.html", message = message )
 
 #　サインインとログイン画面のルートについては後々作成
+
+################################
+# これは練習です。
