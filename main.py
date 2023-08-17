@@ -12,7 +12,10 @@ Markdown(app)
 #　db = SQLAlchemy(app) 
 
 # ここでclassを定義
-# class 
+# class　POST(db.Model)
+#        __tablename__=""
+#        =db.Column(db.Integer)
+#        =db.Column(db.Text())
 
 # トップページのルート
 @app.route('/')
