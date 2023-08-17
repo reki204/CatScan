@@ -1,6 +1,10 @@
 from flask import Flask, render_template
 from flask_sqlalchemy  import SQLAlchemy
+from flaskext.markdown import Markdown
+
+# パイソンで”$ sudo pip3 install Flask-Markdown”を入力してマークダウンを有効にする
 app = Flask(__name__)
+Markdown(app)
 
 # ここでデータベースのURLを指定
 #　db_uri = "mysql+pymysql://root:@charest=utf8"
