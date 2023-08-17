@@ -14,6 +14,7 @@ Markdown(app)
 # ここでclassを定義
 # class　POST(db.Model)
 #        __tablename__=""
+#        =db.Column(db.Integer, primary_key=True, autoincrement=True)
 #        =db.Column(db.Integer)
 #        =db.Column(db.Text())
 
