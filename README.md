@@ -19,6 +19,9 @@
 
 ## 開発の手順
 
+`pip install ○○`をした場合は、`pip freeze > requirements.txt`をしてください。
+
+
 ```
 # 仮想環境の作成
 py -3 -m venv venv
@@ -40,4 +43,7 @@ pip freeze > requirements.txt
 
 # 開発サーバーの実行
 flask run
+
+# デバッグ
+flask run --debugger --reload
 ```
