@@ -1,10 +1,19 @@
 from flask import Flask, render_template
 from flask_sqlalchemy  import SQLAlchemy
 from flaskext.markdown import Markdown
+#from flask_login import UserMixin, LoginManager
+#import os
 
 # パイソンで”$ sudo pip3 install Flask-Markdown”を入力してマークダウンを有効にする
 app = Flask(__name__)
 Markdown(app)
+
+#ログインサインイン機能
+#app.config['SECRET_KEY'] = os.urandom(24)
+#db = SQLAlchemy(app)
+
+#login_manager = LoginManager()
+#login_manager.init_app(app)
 
 # ここでデータベースのURLを指定
 #　db_uri = "mysql+pymysql://root:@charest=utf8"
@@ -43,3 +52,8 @@ def book():
     return render_template("book.html", message = message )
 
 #　サインインとログイン画面のルートについては後々作成
+#class User(UserMixin, db.Model):
+   # id = db.Column(db.Integer,primary_key=True)
+   # username = db.Column(db.String(30), unique = True)
+   # password = db.Column(db.String(12))
+
