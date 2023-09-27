@@ -1,0 +1,8 @@
+h1 {
+    padding: 10px;
+    color: blue;
+    border-color: black;
+  }
+body{
+    background-image:url(static/images/cat1.jpg);
+}
