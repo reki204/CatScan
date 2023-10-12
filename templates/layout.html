@@ -5,9 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CatScan</title>
     <link rel="stylesheet" href="/static/css/layout.css">
+    <script src="https://kit.fontawesome.com/46b72ceb49.js" crossorigin="anonymous"></script>
   </head>
+
   <body>
-    <p>共通テンプレート</p>
+    <header>
+      <h1><a href="index.html">CATSCAN</a></h1>
+      <div class="header">
+        <nav class = "header-nav">
+          <ul class = "header-nav-list">
+              <li><a href="/">HOME</a></li>
+              <li><a href="/login">LOGIN</a></li>
+              <li><a href="/profile">MY PAGE</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
     {% block content %} {% endblock %}
+    </main>
+    <footer>
+      <p>Copyright © KKLab.</p>
+    </footer>
   </body>
+  <main>
+
+  </main>
 </html>

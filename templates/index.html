@@ -1,7 +1,32 @@
+<link rel="stylesheet" href="/static/css/index.css">
 {% extends "layout.html" %}
-{% block content %}
-    <h1>{{ message }}</h1>
-    <p><a href = "/profile">プロフィール</a></p>
-    <p><a href = "/book">図鑑一覧</a></p>
-    <h1>CATSCAN</h1>
+   {% block content %}
+        <div class="container1">
+            <h1>{{ message }}</h1>
+            <h2>CATSCAN</h2>
+            <p>猫の写真を撮ると、猫種を知ることができるアプリ</p>
+            <a href="#" class="btn-flat-border">新規登録・ログイン</a>
+        </div>
+        <div class="container2">
+            <p>How to Use</p>
+            <i class="fa-solid fa-arrow-down-long"></i>
+        </div>
+        <div class="container3">
+            <div class ="item">
+                <p>STEP1</p>
+                <p class ="lead">猫の写真を撮る</p>
+            </div>
+            <div class ="item">
+                <p>STEP2</p>
+                <p class ="lead">判別結果がわかる</p>
+            </div>
+            <div class ="item">
+                <p>STEP3</p>
+                <p class ="lead">図鑑に登録される</p>
+            </div>
+            <div class ="item">
+                <p>STEP4</p>
+                <p class ="lead">色々な種類の猫を集めて楽しむ</p>
+            </div>
+        </div>
 {% endblock %}
