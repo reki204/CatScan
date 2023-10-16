@@ -17,15 +17,17 @@ body{
 }
 .container2{
   text-align: center;
-  margin: 70px;
+  margin: 40px;
   font-weight: bold;
   font-size: 20px;
   color: #ffff;
 }
 .container3{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px ;
 }
 .item{
   background-color: #ffff;
@@ -34,7 +36,7 @@ body{
   border-radius: 10px;
   height: 200px;
   width: 400px;
-  padding: 10px;
+  padding-left: 20px;
 }
 p.item{
   margin: 5px;
@@ -59,4 +61,12 @@ h2{
 }
 .fa-solid fa-arrow-down-long{
   text-align: center;
+}
+.item2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: #982020;
+  margin: auto;
+  width: 40px;
 }

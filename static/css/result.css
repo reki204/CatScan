@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(237, 230, 231);
+}
+main{
+    margin-top: 100px;
+    
+  }
+.container1{
+    display: flex;
+    justify-content: center;
+}
+.container2{
+    width: 40%;
+    height: 400px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.container3{
+    width: 40%;
+    height: 400px;
+    text-align: left;
+    padding-left: 80px;
+}
+.container4{
+    margin-bottom: 50px;
+}
