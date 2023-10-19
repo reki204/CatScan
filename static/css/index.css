@@ -60,3 +60,11 @@ h2{
 .fa-solid fa-arrow-down-long{
   text-align: center;
 }
+
+.mt {
+  margin-top: 7px;
+}
+
+.predict-text {
+  color: #982020;
+}
